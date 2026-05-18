@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Mail, Github, Instagram, Linkedin, MessageCircle, Twitter } from 'lucide-react'
+import { Mail, Github, Instagram, MessageCircle, Twitter } from 'lucide-react'
 import { portfolioData } from '@/data/portfolio'
 import { useState } from 'react'
 
@@ -30,7 +30,6 @@ export const Contact = () => {
     { icon: Instagram, label: 'Instagram', href: portfolioData.social.instagram, color: 'hover:text-pink-400' },
     { icon: MessageCircle, label: 'WhatsApp', href: portfolioData.social.whatsapp, color: 'hover:text-green-400' },
     { icon: Github, label: 'GitHub', href: portfolioData.social.github, color: 'hover:text-white' },
-    { icon: Linkedin, label: 'LinkedIn', href: portfolioData.social.linkedin, color: 'hover:text-blue-400' },
   ]
 
   const handleSubmit = (e: React.FormEvent) => {

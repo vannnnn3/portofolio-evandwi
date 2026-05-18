@@ -101,10 +101,7 @@ export const About = () => {
               </div>
               <div className="space-y-4 text-foreground/70">
                 <p>
-                  I'm a full-stack developer and AI engineer passionate about creating immersive, futuristic digital experiences. With 5+ years of experience, I specialize in building intelligent interfaces that combine cutting-edge design with powerful technology.
-                </p>
-                <p>
-                  My approach blends creativity with technical excellence, resulting in products that are not just functional, but truly transformative.
+                  Perkenalkan, nama saya Evan Dwi Syahputra, seorang siswa yang sedang menempuh pendidikan di SMK Rajasa dengan mengambil jurusan TKJ (Teknik Komputer dan Jaringan). Saya memiliki ketertarikan besar di bidang teknologi, khususnya dalam dunia komputer, jaringan, dan pengembangan website. Saat ini saya sedang fokus mengerjakan sebuah project pembuatan website portofolio modern sebagai bagian dari pengembangan kemampuan sekaligus pengalaman belajar di dunia IT.
                 </p>
               </div>
               <div className="flex flex-wrap gap-2 pt-4">

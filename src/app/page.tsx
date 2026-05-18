@@ -10,7 +10,7 @@ import {
   Testimonials,
   Contact,
 } from '@/components/sections'
-import { AuroraBackground } from '@/components/animations'
+import { AuroraBackground, CustomCursor } from '@/components/animations'
 
 const sections = [
   { Component: Hero, delay: 0 },
@@ -48,6 +48,8 @@ export default function Home() {
           </motion.div>
         ))}
       </motion.div>
+
+      <CustomCursor />
 
       <div className="fixed inset-x-0 bottom-0 -z-20 h-72 bg-gradient-to-t from-background via-transparent opacity-90 pointer-events-none" />
     </AuroraBackground>

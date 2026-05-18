@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { ArrowUp, Github, Instagram, Linkedin, Mail, MessageCircle } from 'lucide-react'
+import { ArrowUp, Github, Instagram, Mail, MessageCircle } from 'lucide-react'
 import { scrollToElement } from '@/lib/utils'
 import { portfolioData } from '@/data/portfolio'
 
@@ -12,7 +12,6 @@ export const Footer = () => {
     { icon: Instagram, href: portfolioData.social.instagram, label: 'Instagram' },
     { icon: MessageCircle, href: portfolioData.social.whatsapp, label: 'WhatsApp' },
     { icon: Github, href: portfolioData.social.github, label: 'GitHub' },
-    { icon: Linkedin, href: portfolioData.social.linkedin, label: 'LinkedIn' },
     { icon: Mail, href: `mailto:${portfolioData.email}`, label: 'Email' },
   ]
 

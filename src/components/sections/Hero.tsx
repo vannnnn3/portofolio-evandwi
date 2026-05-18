@@ -171,7 +171,7 @@ export const Hero = () => {
                      <div className="p-[3px] rounded-full bg-gradient-to-br from-cyan-400 via-purple-500 to-blue-500 shadow-lg shadow-cyan-500/30">
                        <div className="rounded-full overflow-hidden w-28 h-28 bg-slate-900">
                          <img
-                           src="/profile.png"
+                           src="/asset_images/avatar.jpeg"
                            alt="Profile Photo"
                            className="w-full h-full object-cover"
                          />
