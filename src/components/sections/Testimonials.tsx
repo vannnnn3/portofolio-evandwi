@@ -95,7 +95,7 @@ export const Testimonials = () => {
         >
           <InfiniteMarquee speed={20} direction="left">
             {testimonials.map((testimonial, i) => (
-              <TestimonialCard key={i} testimonial={testimonial} index={i} />
+              <TestimonialCard key={i} testimonial={testimonial} />
             ))}
           </InfiniteMarquee>
         </motion.div>
@@ -109,8 +109,8 @@ export const Testimonials = () => {
           className="mt-8"
         >
           <InfiniteMarquee speed={20} direction="right">
-            {testimonials.reverse().map((testimonial, i) => (
-              <TestimonialCard key={i} testimonial={testimonial} index={i} />
+            {testimonials.slice().reverse().map((testimonial, i) => (
+              <TestimonialCard key={i} testimonial={testimonial} />
             ))}
           </InfiniteMarquee>
         </motion.div>

@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Mail, Github, Instagram, MessageCircle, Twitter } from 'lucide-react'
+import { Mail, Github, Instagram, MessageCircle } from 'lucide-react'
 import { portfolioData } from '@/data/portfolio'
 import { useState } from 'react'
 

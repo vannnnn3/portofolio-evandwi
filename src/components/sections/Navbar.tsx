@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Github, Instagram, Linkedin, Menu, MessageCircle, Moon, Sun, Twitter, X } from 'lucide-react'
+import { Instagram, Menu, MessageCircle, Moon, Sun, X } from 'lucide-react'
 import { portfolioData } from '@/data/portfolio'
 import { useEffect, useState } from 'react'
 import { useTheme } from 'next-themes'

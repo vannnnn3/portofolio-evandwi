@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Github, Instagram, Linkedin, MessageCircle, Zap } from 'lucide-react'
+import { Instagram, MessageCircle, Zap } from 'lucide-react'
 import { Button } from '@/components/ui'
 import { portfolioData } from '@/data/portfolio'
 import { TypewriterEffect } from '@/components/animations'
