@@ -64,10 +64,10 @@ export const skills = [
 export const projects = [
   {
     id: 1,
-    title: 'Website Portofolio Modern',
-    description: 'Website portofolio premium dengan desain glassmorphism dan animasi halus.',
+    title: 'Arduino Uno',
+    description: 'Proyek praktik Arduino Uno dengan sensor dan kontrol LED, memperlihatkan pemahaman dasar mikrokontroler dan pemrograman elektronik.',
     image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop',
-    tags: ['Next.js', 'TypeScript', 'TailwindCSS', 'Framer Motion'],
+    tags: ['Arduino', 'Elektronik', 'Pemrograman', 'Sensor'],
     links: {
       live: 'https://example.com',
       github: 'https://github.com',
@@ -75,10 +75,10 @@ export const projects = [
   },
   {
     id: 2,
-    title: 'Aplikasi Chat AI',
-    description: 'Aplikasi obrolan real-time dengan integrasi AI dan antarmuka modern.',
+    title: 'Pembuatan Website Portofolio',
+    description: 'Website portofolio personal yang dirancang untuk menampilkan pengalaman, proyek, dan kemampuan secara profesional.',
     image: '/asset_images/ai.jpg',
-    tags: ['React', 'Node.js', 'Socket.io', 'OpenAI API'],
+    tags: ['HTML', 'CSS', 'JavaScript', 'Responsive'],
     links: {
       live: 'https://example.com',
       github: 'https://github.com',
@@ -86,10 +86,10 @@ export const projects = [
   },
   {
     id: 3,
-    title: 'Platform E-Commerce',
-    description: 'Solusi e-commerce full-stack dengan integrasi pembayaran.',
+    title: 'Mikrotik Network Configuration',
+    description: 'Konfigurasi jaringan menggunakan Mikrotik untuk mengelola routing, firewall, dan manajemen bandwidth di lingkungan lokal.',
     image: 'https://images.unsplash.com/photo-1557821552-17105176677c?w=500&h=300&fit=crop',
-    tags: ['Next.js', 'Stripe', 'MongoDB', 'Redux'],
+    tags: ['Mikrotik', 'Routing', 'Firewall', 'Jaringan'],
     links: {
       live: 'https://example.com',
       github: 'https://github.com',
@@ -97,10 +97,10 @@ export const projects = [
   },
   {
     id: 4,
-    title: 'Perpustakaan Design System',
-    description: 'Perpustakaan komponen lengkap dengan dokumentasi Storybook.',
+    title: 'LAN Infrastructure',
+    description: 'Perancangan dan implementasi infrastruktur LAN untuk mendukung konektivitas stabil dan perangkat jaringan yang terorganisir.',
     image: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500&h=300&fit=crop',
-    tags: ['React', 'Storybook', 'TailwindCSS', 'TypeScript'],
+    tags: ['LAN', 'Switch', 'Kabel UTP', 'Topologi'],
     links: {
       live: 'https://example.com',
       github: 'https://github.com',
@@ -108,10 +108,10 @@ export const projects = [
   },
   {
     id: 5,
-    title: 'Aplikasi Manajemen Tugas',
-    description: 'Manajemen tugas kolaboratif dengan pembaruan real-time.',
+    title: 'User Testing & Prototyping',
+    description: 'Proses pengujian pengguna dan pembuatan prototipe untuk menemukan masalah penggunaan dan memperbaiki desain sebelum pengembangan akhir.',
     image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&h=300&fit=crop',
-    tags: ['React', 'Firebase', 'TailwindCSS', 'Context API'],
+    tags: ['UX', 'Prototyping', 'User Test', 'Feedback'],
     links: {
       live: 'https://example.com',
       github: 'https://github.com',
@@ -119,10 +119,10 @@ export const projects = [
   },
   {
     id: 6,
-    title: 'Dashboard Analitik',
-    description: 'Dashboard interaktif dengan visualisasi data dan metrik real-time.',
+    title: 'Design System Documentation',
+    description: 'Dokumentasi sistem desain yang mencakup panduan komponen, warna, tipografi, dan aturan penggunaan untuk konsistensi tampilan.',
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop',
-    tags: ['React', 'Chart.js', 'Node.js', 'PostgreSQL'],
+    tags: ['Design System', 'Dokumentasi', 'UI Kit', 'Panduan'],
     links: {
       live: 'https://example.com',
       github: 'https://github.com',

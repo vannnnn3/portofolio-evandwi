@@ -43,7 +43,7 @@ export const About = () => {
             <span className="gradient-text">Evan Dwi</span> - AI Engineer & Creative Developer
           </h2>
           <p className="mx-auto max-w-2xl text-lg text-foreground/70">
-            I craft immersive digital experiences with AI integration, futuristic design, and cutting-edge technology. Turning ideas into intelligent solutions.
+            Saya adalah siswa SMK RAJASA SURABAYA yang sedang belajar tentang website dan belajar untuk membuat website dan memahami kepentingan membuat website itu apa
           </p>
         </motion.div>
 

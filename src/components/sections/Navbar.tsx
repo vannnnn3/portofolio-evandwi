@@ -125,19 +125,28 @@ export const Navbar = () => {
               {item.label}
             </motion.a>
           ))}
-          <div className="flex justify-between gap-3 pt-3">
-            {socialLinks.map((social) => (
-              <motion.a
-                key={social.label}
-                href={social.href}
-                target="_blank"
-                rel="noreferrer"
-                whileHover={{ scale: 1.05 }}
-                className="grid h-11 w-11 place-items-center rounded-2xl border border-white/10 bg-white/5 text-foreground/80 transition hover:border-cyan-400/30"
-              >
-                <social.icon size={18} />
-              </motion.a>
-            ))}
+          <div className="flex flex-col gap-3 pt-3 sm:flex-row sm:items-center sm:justify-between">
+            <button
+              type="button"
+              onClick={toggleTheme}
+              className="grid h-11 w-11 place-items-center rounded-2xl border border-white/10 bg-white/5 text-foreground/80 transition hover:border-cyan-400/30 hover:text-cyan-300"
+            >
+              {mounted && (theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />)}
+            </button>
+            <div className="flex gap-3">
+              {socialLinks.map((social) => (
+                <motion.a
+                  key={social.label}
+                  href={social.href}
+                  target="_blank"
+                  rel="noreferrer"
+                  whileHover={{ scale: 1.05 }}
+                  className="grid h-11 w-11 place-items-center rounded-2xl border border-white/10 bg-white/5 text-foreground/80 transition hover:border-cyan-400/30"
+                >
+                  <social.icon size={18} />
+                </motion.a>
+              ))}
+            </div>
           </div>
         </div>
       </motion.div>
