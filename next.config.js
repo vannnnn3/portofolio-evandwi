@@ -3,6 +3,9 @@ const nextConfig = {
   output: 'export',
   basePath: '/portofolio-evandwi',
   assetPrefix: '/portofolio-evandwi/',
+  env: {
+    NEXT_PUBLIC_BASE_PATH: '/portofolio-evandwi',
+  },
   outputFileTracingRoot: __dirname,
   eslint: {
     ignoreDuringBuilds: true,

@@ -1,3 +1,5 @@
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ''
+
 export const portfolioData = {
   name: 'Evan Dwi',
   role: 'Pengembang Full Stack & Desainer',
@@ -77,7 +79,7 @@ export const projects = [
     id: 2,
     title: 'Pembuatan Website Portofolio',
     description: 'Website portofolio personal yang dirancang untuk menampilkan pengalaman, proyek, dan kemampuan secara profesional.',
-    image: '/asset_images/ai.jpg',
+    image: `${basePath}/asset_images/ai.jpg`,
     tags: ['HTML', 'CSS', 'JavaScript', 'Responsive'],
     links: {
       live: 'https://example.com',

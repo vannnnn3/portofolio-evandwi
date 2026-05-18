@@ -28,6 +28,8 @@ export const Hero = () => {
     visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: 'easeOut' } },
   }
 
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ''
+
   return (
     <section id="home" className="relative min-h-screen overflow-hidden px-4 pt-32 pb-20 sm:px-6 lg:px-8">
       {/* Animated background grid */}
@@ -171,7 +173,7 @@ export const Hero = () => {
                      <div className="p-[3px] rounded-full bg-gradient-to-br from-cyan-400 via-purple-500 to-blue-500 shadow-lg shadow-cyan-500/30">
                        <div className="rounded-full overflow-hidden w-28 h-28 bg-slate-900">
                          <img
-                           src="/asset_images/avatar.jpeg"
+                           src={`${basePath}/asset_images/avatar.jpeg`}
                            alt="Profile Photo"
                            className="w-full h-full object-cover"
                          />
