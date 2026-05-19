@@ -17,6 +17,8 @@ export const About = () => {
     visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
   }
 
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ''
+
   const stats = [
     { icon: Zap, label: '5+ Years', value: 'Experience', color: 'from-cyan-400 to-blue-500' },
     { icon: Code2, label: '50+', value: 'Projects', color: 'from-purple-400 to-pink-500' },
@@ -45,6 +47,35 @@ export const About = () => {
           <p className="mx-auto max-w-2xl text-lg text-foreground/70">
             Saya adalah siswa SMK RAJASA SURABAYA yang sedang belajar tentang website dan belajar untuk membuat website dan memahami kepentingan membuat website itu apa
           </p>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.1 }}
+          viewport={{ once: true }}
+          className="mb-16 overflow-hidden rounded-3xl border border-cyan-400/20 bg-gradient-to-br from-cyan-500/10 to-transparent p-6 backdrop-blur-xl sm:p-8"
+        >
+          <div className="flex flex-col items-center gap-6 text-center">
+            <div className="inline-flex items-center gap-2 rounded-full bg-cyan-400/10 px-4 py-2 text-xs font-semibold uppercase tracking-wider text-cyan-200 shadow-sm shadow-cyan-400/10">
+              <span className="h-2 w-2 rounded-full bg-cyan-400" />
+              LIVE INTERFACE
+            </div>
+            <div className="relative overflow-hidden rounded-full border-4 border-gradient-to-br from-cyan-400 via-purple-500 to-blue-500 p-[3px] shadow-lg shadow-cyan-500/20">
+              <div className="rounded-full overflow-hidden bg-slate-900 w-40 h-40 sm:w-48 sm:h-48">
+                <img
+                  src={`${basePath}/asset_images/avatar.jpeg`}
+                  alt="Profile Photo"
+                  className="h-full w-full object-cover"
+                />
+              </div>
+              <span className="absolute bottom-2 right-2 inline-flex h-4 w-4 rounded-full border-2 border-slate-900 bg-green-400 shadow-lg shadow-green-400/40" />
+            </div>
+            <div>
+              <h3 className="text-2xl font-bold text-white">EVAN DWI SYAHPUTRA</h3>
+              <p className="text-sm text-foreground/70">Full-stack developer & passionate web designer</p>
+            </div>
+          </div>
         </motion.div>
 
         {/* Stats Grid - Bento style */}
