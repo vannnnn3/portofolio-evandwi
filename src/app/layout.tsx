@@ -58,6 +58,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#020617" />
       </head>
       <body
+        suppressHydrationWarning
         className={`${inter.variable} ${spaceGrotesk.variable} font-sans bg-background text-foreground`}
       >
         <ThemeProvider>

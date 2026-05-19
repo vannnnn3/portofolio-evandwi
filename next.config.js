@@ -1,10 +1,13 @@
 /** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production'
+const basePath = isProd ? '/portofolio-evandwi' : ''
+
 const nextConfig = {
   output: 'export',
-  basePath: '/portofolio-evandwi',
-  assetPrefix: '/portofolio-evandwi/',
+  basePath,
+  assetPrefix: isProd ? '/portofolio-evandwi/' : '',
   env: {
-    NEXT_PUBLIC_BASE_PATH: '/portofolio-evandwi',
+    NEXT_PUBLIC_BASE_PATH: basePath,
   },
   outputFileTracingRoot: __dirname,
   eslint: {
