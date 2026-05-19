@@ -28,8 +28,6 @@ export const Hero = () => {
     visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: 'easeOut' } },
   }
 
-  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ''
-
   return (
     <section id="home" className="relative min-h-screen overflow-hidden px-4 pt-32 pb-20 sm:px-6 lg:px-8">
       {/* Animated background grid */}
