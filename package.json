@@ -11,7 +11,7 @@
     "dev": "next dev",
     "build": "next build",
     "export": "next build",
-    "predeploy": "npm run export",
+    "predeploy": "npm run export && node scripts/copy-nojekyll.js",
     "deploy": "gh-pages -d out",
     "start": "next start",
     "lint": "next lint"
